@@ -7,11 +7,11 @@
 
 ## About
 
-This project is a raw image decoder implemented in Python. This code convert the raw image into full color image. In this pipeline we read file in pattern [R G G B] and perform the bilinear demosaic then we can choose the white balance algorithm between Gray World, White Patch, Iterative and Percentile. Finally the code run the gamma correction and give the result image.
+This project is a raw image decoder implemented in Python. This code convert the raw image data into full color image. In this pipeline we read file in [R G G B] pattern and perform the bilinear demosaic. Next, we can choose white balance algorithm between Gray World, White Patch, Iterative and Percentile. Finally code perform the gamma correction and give the result image.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
 
@@ -31,7 +31,7 @@ What things you need to run the software
 python main.py
 ```
 
-For run in another image use the flag '- path pathIMG' 
+Use the flag '- path pathIMG' for run in another image.
 ## Author
 
 * **Vítor Godeiro**
